@@ -1,0 +1,162 @@
+.imageContainer{order: 1;}
+
+.img-thumbnail{
+  width: 100px;
+  height: auto;
+  padding: 0;
+}
+
+.textDescription{
+  background-color: #e6e6e6;
+  padding: 10% 5%;
+  text-align: center;
+  order: 2;
+}
+
+.textDescription ul{
+  list-style-type: none;
+  padding:0;
+}
+
+.breadMakingClassVideo{
+  height: 67.5vh;
+  width: 90vw;
+  padding: 2%;
+}
+@media (min-width: 768px){
+  .imageContainer{order: 0;}
+
+  .textDescription{
+    order: 0;
+  }
+
+}/* @media (min-width: 768px) */
+
+
+
+
+/* ================================================
+   PRODUCTS PAGE STYLES
+   ================================================ */
+
+/* Page title */
+h3.text-center {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/* Card container */
+.card {
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+    background: #fff;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Hover animation */
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+/* Product image */
+.card img {
+    border-radius: 10px;
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Product name */
+.card h4 {
+    font-size: 22px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+/* Price */
+.card .text-muted {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+/* Description */
+.card .small {
+    color: #555;
+    font-size: 14px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+.card .btn-primary {
+    background-color: #b35a00;
+    border-color: #b36800c3;
+    padding: 10px 20px;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* Button hover */
+.card .btn-primary:hover {
+    background-color: #b35a00;
+    border-color: #b36800c3;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .card img {
+        height: 200px;
+    }
+}
+
+
+
+/* ================================
+   CONTACT FORM
+   ================================ */
+
+.contact-form .form-label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #8b4513;
+    box-shadow: 0 0 6px rgba(139, 69, 19, 0.25);
+}
+
+.contact-form button {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Add space at bottom of contact page */
+.contact-page {
+    margin-bottom: 50px;   /* Adjust space between content and footer */
+}
+
+/* Add space below the contact form */
+.contact-form {
+    margin-bottom: 40px; 
+}
+
+/* Add space below Send Message button */
+.contact-form button {
+    margin-bottom: 30px;
+}
