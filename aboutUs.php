@@ -3,7 +3,7 @@
   include("templates/template.php");
 ?>
 <script type="text/javascript">
-  setPageTitle("About Us");
+  setPageTitle("About Me");
   const thisMainSection = document.querySelector("main");
 
   // 1. About Luca's Loaves – statement of purpose
